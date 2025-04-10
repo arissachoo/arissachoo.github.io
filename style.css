@@ -31,18 +31,6 @@ button:hover {
   background-color: #5145cd;
 }
 
- #gifImage {
-    display: none;
-    margin-top: 20px;
-    width: 200px;  /* Adjust size of GIF */
-    height: auto;
-}
-
-/* Reveal the GIF when hovering over the button */
-button:hover + #gifImage {
-    display: block;
-}
-
 #hiddenContent {
   display: none;
   margin-top: 2em;
