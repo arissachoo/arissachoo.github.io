@@ -1,10 +1,9 @@
 body {
-  background-image: url('img/scene.gif');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #f5f7fa, #c3cfe2);
   margin: 0;
-  font-family: 'Arial', sans-serif;
+  padding: 2em;
+  text-align: center;
 }
 
 .container {
