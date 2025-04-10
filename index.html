@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Welcome to My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Hey there! 👋</h1>
+    <p>Welcome to my fun portfolio. Ready to explore?</p>
+    <button id="revealBtn">Click Me!</button>
+
+    <div id="hiddenContent">
+      <h2>🌟 Projects</h2>
+      <ul>
+        <li><strong>🍱 CNN Food Classifier</strong> – Image recognition for food using Google Colab</li>
+        <li><strong>🤖 Chatbot with Dialogflow</strong> – Built a smart assistant with NLP</li>
+        <li><strong>📊 FYP: Library Data Dashboard</strong> – Interactive dashboard using PHP, Highcharts & MySQL</li>
+      </ul>
+
+      <h2>📫 Contact Me</h2>
+      <p>Email: yourname@email.com</p>
+      <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("revealBtn").addEventListener("click", function () {
+      document.getElementById("hiddenContent").style.display = "block";
+      this.style.display = "none";
+    });
+  </script>
+</body>
+</html>
